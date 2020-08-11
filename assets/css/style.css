@@ -1,5 +1,7 @@
 
-
+html{
+	scroll-behavior: smooth;
+}
 
 a {
 	text-decoration: none;
@@ -153,9 +155,14 @@ nav a{
 	line-height: 22px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	background-color: #00897b;
-	padding: 23px 46px 23px 46px;
+	border: 3px solid #f8f8f8;
+	padding: 21px 41px 20px 46px;
 
+}
+
+.header-title-bottom-1:hover, .header-title-bottom-2:hover {
+	background-color: #00897b;
+	border-color: #00897b;
 }
 
 .header-title-bottom-container {
@@ -447,6 +454,7 @@ p.our-title {
 	height: 1142px;
 	background-color: #f0f0f0;
 	margin: 0 auto;
+	margin-bottom: 122px;
 }
 
 h2.price-title {
@@ -583,4 +591,254 @@ p.price-title {
 	margin-left: 93px;
 }
 
+.team {
+
+}
+
+h2.team-title {
+	text-align: center;
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 1.5px;
+	margin: 0 auto;
+	padding-bottom: 31px;
+}
+
+p.team-title {
+	width: 700px;
+	text-align: center;
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0.75px;
+	margin: 0 auto;
+	padding-bottom: 125px;
+}
+
+.photo-team-container {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1170px;
+	height: 490px;
+	margin: 0 auto;
+}
+
+.photo-team {
+	width: 370px;
+}
+
+.photo-team .people {
+	width: 370px;
+	height: 320px;
+}
+
+.photo-team h2 {
+	text-align: center;
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 1px;
+	padding-top: 32px;
+	padding-left: 4px;
+	margin: 0 auto;
+}
+
+.photo-team p {
+	text-align: center;
+	width: 140px;
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.75px;
+	padding-top: 7px;
+	padding-bottom: 26px;
+	margin: 0 auto;
+	}
+
+
+.team-icon {
+	margin: 0 auto;
+	width: 271px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.team-icon-all {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #f0f1f1;
+	border-radius: 10px;
+}
+
+.team-icon img {
+	padding-top: 12px;
+}
+
+.team-dot {
+	text-align: center;
+	padding-top: 121px;
+	padding-left: 5px;
+}
+
+.team-dot img {
+	padding-right: 5px;
+	color: #000
+}
+
+.blog {
+	width: 1399px;
+	height: 1869px;
+	background-color: #e4fdf9;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+
+h2.blog-title {
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	padding-top: 126px;
+}
+
+p.blog-title {
+	width: 650px;
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0.75px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 6px;
+}
+
+.blog-container {
+	width: 1171px;
+	height: 1200px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding-top: 126px;
+
+}
+
+.blog-block {
+	width: 570px;
+	height: 400px;
+	
+}
+
+.blog-data {
+	display: flex;
+	flex-direction: row;
+	width: 316px;
+	height: 20px; 
+	padding-top: 5px;
+	padding-left: 1px;
+}
+
+.blog-data img {
+	height: 18px;
+	padding-top: 3px;
+}
+
+.blog-data p {
+	width: 99px;
+	height: 12px;
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.85px;
+	margin: 0;
+	padding-left: 13px;
+	padding-right: 41px;
+
+}
+
+h2.blog-text {
+	width: 280px;
+	color: #000;
+	font-family: "Open Sans", sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 1.25px;
+	cursor: pointer;
+}
+
+h2.blog-text:hover {
+	color: #00897b;
+}
+
+p.blog-text {
+	width: 460px;
+	height: 60px;
+	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.75px;
+	padding-top: 9px;
+}
+
+.blog-block-text {
+	padding-top: 39px;
+}
+
+.blog-button {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 125px;
+	padding-right: 56px;
+}
+
+.blog-button button {
+	width: 220px;
+	height: 70px;
+	background-color: #00897b;
+	border: 0;
+	cursor: pointer;
+}
+
+.blog-button button:hover {
+		width: 225px;
+		height: 75px;
+}
+
+.blog-button h2 {
+
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 0 auto;
+}
 
