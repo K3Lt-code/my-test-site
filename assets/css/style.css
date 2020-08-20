@@ -1,4 +1,3 @@
-
 html{
 	scroll-behavior: smooth;
 }
@@ -8,16 +7,20 @@ a {
 }
 
 header {
+	margin: 0 auto;
 	height: 97px;
 	position: relative;
 	margin-top: 23px;
+	width: 74%;
+	overflow: hidden;
 }
 
 nav {
 	height: 20px;
-	margin-left: 41.9%;
+	margin-left: 38.9%;
 	position: absolute;
 	bottom: 53px;
+	width: 61%
 }
 
 nav .nav-menu-container {
@@ -46,27 +49,27 @@ main {
 }
 
 .nav-block1 {
-	margin-right: 44px;
+	margin-right: 5.5%;
 }
 
 .nav-block2 {
-	margin-right: 36px;
+	margin-right: 4.4%;
 }
 
 .nav-block3 {
-	margin-right: 38px;
+	margin-right: 4.5%;
 }
 
 .nav-block4 {
-	margin-right: 31px;
+	margin-right: 3.8%;
 }
 
 .nav-block5 {
-	margin-right: 37px;
+	margin-right: 4.4%;
 }
 
 .nav-block6 {
-	margin-right: 25px;
+	margin-right: 3.1%;
 }
 
 
@@ -76,7 +79,7 @@ nav a{
 
 .logo {
 	display: inline-block;
-	margin-left: 19%;
+	margin-left: 8%;
 	padding-top: 15px;
 }
 
@@ -93,8 +96,8 @@ nav a{
 	background: url('../img/header-photo.png');
 	background-repeat: no-repeat;
 	filter: brightness(25%);
-	width: 1398px;
-	height: 782px;
+	width: 100%;
+	height: 83.8%;
 	display: block;
 	position: absolute;
 	z-index: -1;
@@ -113,18 +116,18 @@ nav a{
 .header-img h1 {
 	margin: 0;
 	text-align: center;
-	padding-top: 195px;
+	padding-top: 12%;
 	color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
 	font-weight: 600;
-	line-height: 22px;
+	line-height: 70px;
 	letter-spacing: 3px;
 }
 
 .header-img h2 {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 2%;
 	color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 21px;
@@ -177,7 +180,7 @@ nav a{
 
 .marc-icon {
 	display: block;
-	margin: 124px auto 0 auto;
+	margin: 8.7% auto 0 auto;
 	cursor: pointer;
 }
 
@@ -219,7 +222,7 @@ nav a{
 	flex-direction: row;
 	justify-content: space-between;
 	text-align: center;
-	width: 1070px;
+	width: 76%;
 	margin: 0 auto 108px auto;
 	padding-top: 28px;
 
@@ -300,7 +303,6 @@ p.our-title {
 
 .our-size {
 	width: 31.7%;
-	height: 438px;
 	background-color: #ffffff;
 	margin-bottom: 2.7%;
 	text-align: center;
@@ -317,6 +319,7 @@ p.our-title {
 	letter-spacing: 0.75px;
 	margin: 0 auto;
 	word-break: break-all;
+	margin-bottom: 10.5%;
 }
 
 .our-size h2 {
@@ -333,8 +336,11 @@ p.our-title {
 	padding-top: 57px;
 }
 
+.our-size-btn {
+	padding-bottom: 13.5%;
+}
+
 .our-size .btn {
-	margin-top: 40px;
 	color: #212121;
 	background-color: #fff;
 	font-family: "Open Sans", sans-serif;
@@ -344,8 +350,8 @@ p.our-title {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	border: 2px solid #212121;
-	padding: 15px 10px;
-	margin-left: 31px;
+	padding: 4% 2%;
+	/*margin-left: 31px;*/
 	cursor: pointer;
 }
 
@@ -473,6 +479,7 @@ p.our-title {
 
 .latest-works-img img{
 	padding-bottom: 30px;
+	width: 31.7%;
 }
 
 .latest-works-img-select:hover {
@@ -712,6 +719,8 @@ p.team-title {
 
 .slider-buttons {
 	position: absolute;
+	width: 20%;
+	left: 12%
 }
 
 .slider-buttons .btn-prev {
@@ -728,11 +737,11 @@ p.team-title {
 
 .arrow-right {
 	cursor: pointer;
-	width: 80px;
-	height: 120px;
-	position: relative;
-	margin: 20px;
-	left: 1208.4%;
+	width: 1%;
+	height: 1%;
+	position: absolute;
+	margin: 1px;
+	left: 358%;
 	top: 6em;
 }
 
@@ -758,12 +767,12 @@ p.team-title {
 
 .arrow-left {
 	cursor: pointer;
-	width: 80px;
-	height: 120px;
+	width: 1%;
+	height: 1%;
 	position: relative;
-	margin: 20px;
+	margin: 1px;
 	outline: none;
-	left: 175%;
+	left: 0%;
 	top: 6em;
 }
 
@@ -963,7 +972,7 @@ h2.blog-text:hover {
 }
 
 p.blog-text {
-	width: 460px;
+	width: 80%;
 	height: 60px;
 	color: #212121;
 	font-family: "Open Sans", sans-serif;
@@ -975,14 +984,14 @@ p.blog-text {
 }
 
 .blog-block-text {
-	padding-top: 39px;
+	padding-top: 7%;
 }
 
 .blog-button {
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 125px;
-	padding-right: 56px;
+	padding-top: 9%;
+	padding-right: 4%;
 }
 
 .blog-button button {
@@ -1062,9 +1071,9 @@ p.contact-us-title {
 .contact-us-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 951px;
+	width: 73%;
 	margin: 0 auto;
 	padding-top: 106px;
 }
@@ -1107,14 +1116,14 @@ p.contact-us-title {
 	}
 
 .contact-us-data-container {
-	width: 1031px;
+	width: 74%;
 	margin: 0 auto;
-	padding-top: 85px;
+	padding-top: 3.7%;
 }
 
 .contact-us-data {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
@@ -1133,6 +1142,7 @@ p.contact-us-title {
 	line-height: 28px;
 	letter-spacing: 1px;
 	padding-left: 22px;
+	margin-top: 3%;
 }
 
 .contact-us-data textarea {
@@ -1159,7 +1169,7 @@ p.contact-us-title {
 }
 
 button.contact-us-button {
-	width: 220px;
+	width: 15.6%;
 	height: 70px;
 	outline: none;
 	border: none;
