@@ -678,13 +678,97 @@ p.team-title {
 }
 
 .photo-team-container {
+	width: 1170px;
+	height: 490px;
+	margin: 0 auto;
+	overflow: hidden;
+}
 
+.photo-team-track {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	width: 1170px;
 	height: 490px;
 	margin: 0 auto;
+	transition: 0.2s;
+}
+
+.slider-buttons {
+	position: absolute;
+}
+
+.slider-buttons .btn-prev {
+	background-color: #fff;
+	outline: none;
+	border: none;
+}
+
+.slider-buttons .btn-next {
+	background-color: #fff;
+	outline: none;
+	border: none;
+}
+
+.arrow-right {
+	cursor: pointer;
+	width: 80px;
+	height: 120px;
+	position: relative;
+	margin: 20px;
+	left: 1450px;
+	top: 90px;
+}
+
+.arrow-right-top, .arrow-right-bottom {
+	background: #00897b;
+	height: 10px;
+	width: 100px;
+	left: -30px;
+	position: absolute;
+	top: 60px;
+}
+
+.arrow-right-top {
+	top: 64px;
+	transform: rotate(45deg);
+	transform-origin: bottom right;
+}
+
+.arrow-right-bottom {
+	transform: rotate(-45deg);
+	transform-origin: top right;
+}
+
+.arrow-left {
+	cursor: pointer;
+	width: 80px;
+	height: 120px;
+	position: relative;
+	margin: 20px;
+	outline: none;
+	left: 210px;
+	top: 90px;
+}
+
+.arrow-left-top, .arrow-left-bottom {
+	background: #00897b;
+	height: 10px;
+	width: 100px;
+	left: -30px;
+	position: absolute;
+	top: 60px;
+}
+
+.arrow-left-top {
+	top: 64px;
+	transform: rotate(-45deg);
+	transform-origin: bottom left;
+}
+
+.arrow-left-bottom {
+	transform: rotate(45deg);
+	transform-origin: top left;
 }
 
 .photo-team {
