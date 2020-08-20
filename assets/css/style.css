@@ -408,6 +408,7 @@ p.our-title {
 	border: 2px solid #00897b;
 	margin-right: 2px;
 	padding-left: 9px;
+	outline: none;
 
 
 }
@@ -427,6 +428,7 @@ p.our-title {
 	margin-right: 5px;
 	padding-left: 12px;
 	padding-top: 3px;
+	outline: none;
 
 }
 
@@ -887,8 +889,6 @@ p.blog-text {
 }
 
 .blog-button button:hover {
-	width: 225px;
-	height: 75px;
 	background-color: #00897b;
 	border: 0;
 	color: #ffffff;
