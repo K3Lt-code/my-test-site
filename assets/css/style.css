@@ -15,7 +15,7 @@ header {
 
 nav {
 	height: 20px;
-	margin-left: 797px;
+	margin-left: 41.9%;
 	position: absolute;
 	bottom: 53px;
 }
@@ -102,10 +102,11 @@ nav a{
 
 
 .header-img {
-	width: 1398px;
+	width: 74%;
 	height: 782px;
 	margin: 0 auto 0 auto;
 	position: relative;
+	overflow: hidden;
 
 }
 
@@ -170,7 +171,8 @@ nav a{
 
 .header-title-bottom-container {
 	display: block;
-	margin: 133px auto 0px 463px;
+	text-align: center;
+	margin-top: 9.5%;
 }
 
 .marc-icon {
@@ -180,7 +182,7 @@ nav a{
 }
 
 .about-us {
-	width: 1398px;
+	width: 74%;
 	margin: 0 auto;
 	margin-bottom: 5%;
 }
@@ -389,7 +391,7 @@ p.our-title {
 }
 
 .latest-works p {
-	width: 650px;
+	width: 45.5%;
 	margin: 0 auto;
 	text-align: center;
 	color: #212121;
@@ -448,7 +450,7 @@ p.our-title {
 	margin: 0 auto;
 	margin-top: 144px;
 	margin-bottom: 136px;
-	width: 1400px;
+	width: 74%;
 }
 
 .latest-menu {
@@ -465,8 +467,8 @@ p.our-title {
 	justify-content: space-between;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 1170px;
-	margin: 120px auto 0 auto;
+	width: 83%;
+	margin: 8.3% auto 0 auto;
 }
 
 .latest-works-img img{
@@ -508,7 +510,7 @@ p.our-title {
 }
 
 .pricing-plan {
-	width: 1401px;
+	width: 74%;
 	height: 1142px;
 	background-color: #f0f0f0;
 	margin: 0 auto;
@@ -545,7 +547,7 @@ p.price-title {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 1169px;
+	width: 83%;
 	margin: 0 auto;
 }
 
@@ -553,8 +555,9 @@ p.price-title {
 	background-image: url('../img/bgc-price.png');
 	background-repeat: no-repeat;
 	background-color: #fff;
-	width: 370px;
-	height: 667px;
+	width: 31.7%;
+	padding-bottom: 5.4%;
+	text-align: center;
 
 }
 
@@ -641,8 +644,7 @@ p.price-title {
 .decor-border {
 	font-size: 1px;
 	border-bottom: 1px solid #bfbfbf;
-	padding-left: 178px;
-	margin-left: 93px;
+	padding-left: 48.3%;
 }
 
 .price-block .btn {
@@ -657,12 +659,13 @@ p.price-title {
 	text-transform: uppercase;
 	border: 2px solid #000000;
 	letter-spacing: 1px;
-	margin-top: 31px;
-	margin-left: 93px;
+	margin: 0 auto;
+	margin-top: 7.4%;
 }
 
 .team {
-
+/*	width: 74%;
+	margin: 0 auto;*/
 }
 
 h2.team-title {
@@ -691,10 +694,10 @@ p.team-title {
 }
 
 .photo-team-container {
-	width: 1170px;
-	height: 490px;
+	width: 61.6%;
 	margin: 0 auto;
 	overflow: hidden;
+	text-align: center;
 }
 
 .photo-team-track {
@@ -729,8 +732,8 @@ p.team-title {
 	height: 120px;
 	position: relative;
 	margin: 20px;
-	left: 1450px;
-	top: 90px;
+	left: 1208.4%;
+	top: 6em;
 }
 
 .arrow-right-top, .arrow-right-bottom {
@@ -760,8 +763,8 @@ p.team-title {
 	position: relative;
 	margin: 20px;
 	outline: none;
-	left: 210px;
-	top: 90px;
+	left: 175%;
+	top: 6em;
 }
 
 .arrow-left-top, .arrow-left-bottom {
@@ -785,11 +788,11 @@ p.team-title {
 }
 
 .photo-team {
-	width: 370px;
+	width: 95%;
 }
 
 .photo-team .people {
-	width: 370px;
+	width: 95%;
 	height: 320px;
 }
 
@@ -881,7 +884,7 @@ h2.blog-title {
 }
 
 p.blog-title {
-	width: 650px;
+	width: 45%;
 	color: #212121;
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
@@ -894,7 +897,7 @@ p.blog-title {
 }
 
 .blog-container {
-	width: 1171px;
+	width: 83%;
 	height: 1200px;
 	display: flex;
 	justify-content: space-between;
@@ -906,9 +909,13 @@ p.blog-title {
 }
 
 .blog-block {
-	width: 570px;
-	height: 400px;
+	width: 48.7%;
+	height: 30%;
 	
+}
+
+.blog-block img {
+	width: 100%;
 }
 
 .blog-data {
@@ -1172,6 +1179,7 @@ button.contact-us-button {
 
 footer {
 	margin: 0;
+	width: 100%;
 }
 
 footer h2 {
