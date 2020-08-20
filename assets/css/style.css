@@ -96,8 +96,8 @@ nav a{
 	width: 1398px;
 	height: 782px;
 	display: block;
-	margin: 0 252.5px 0 252.5px;
 	position: absolute;
+	z-index: -1;
 }
 
 
@@ -180,11 +180,13 @@ nav a{
 }
 
 .about-us {
+	width: 1398px;
+	margin: 0 auto;
 	margin-bottom: 5%;
 }
 
 .about-us h2 {
-	margin-left: 878px;
+	text-align: center;
 	color: #212121;
 	font-family: "Open Sans";
 	font-size: 30px;
@@ -203,6 +205,11 @@ nav a{
 	font-weight: 400;
 	line-height: 22px;
 	letter-spacing: 0.75px;
+	margin-bottom: 6.8%;
+}
+
+.about-us img {
+	margin-bottom: 6%;
 }
 
 .one-page-container {
@@ -248,10 +255,10 @@ nav a{
 }
 
 .our-services-container {
-	width: 1398px;
-	height: 1410px;
+	width: 74%;
 	background-color: #e4fdf9;
 	margin: 0 auto;
+	padding-bottom: 4%;
 }
 
 h2.our-title {
@@ -280,7 +287,7 @@ p.our-title {
 }
 
 .our-flex-container {
-	width: 1170px;
+	width: 83.1%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
@@ -290,16 +297,16 @@ p.our-title {
 }
 
 .our-size {
-	width: 370px;
+	width: 31.7%;
 	height: 438px;
 	background-color: #ffffff;
-	margin-bottom: 30px;
+	margin-bottom: 2.7%;
 	text-align: center;
 
 }
 
 .our-size p {
-	width: 271px;
+	width: 74%;
 	color: #212121;
 	font-family: "Open Sans", sans-serif;
 	font-size: 15px;
@@ -438,8 +445,10 @@ p.our-title {
 }
 
 .latest-works {
+	margin: 0 auto;
 	margin-top: 144px;
 	margin-bottom: 136px;
+	width: 1400px;
 }
 
 .latest-menu {
@@ -469,6 +478,11 @@ p.our-title {
 	transition: 0.5s;
 }
 
+.latest-works-button {
+	margin: 0 auto;
+	text-align: center;
+}
+
 .latest-works-button .btn {
 	text-align: center;
 	width: 220px;
@@ -483,7 +497,6 @@ p.our-title {
 	background-color: #ffffff;
 	border: 2px solid #00897b;
 	margin-top: 99px;
-	margin-left: 843px;
 	padding-top: 1px;
 
 }
@@ -849,7 +862,7 @@ p.team-title {
 }
 
 .blog {
-	width: 1399px;
+	width: 74%;
 	height: 1869px;
 	background-color: #e4fdf9;
 	margin: 0 auto;
@@ -995,18 +1008,17 @@ p.blog-text {
 
 .contact-us {
 	position: relative;
-	width: 1400px;
-	height: 1254px;
+	width: 74%;
 	background-image: url('../img/contact-us-bg.png');
 	background-repeat: no-repeat;
-	margin-left: 252px;
+	margin: 0 auto;
 	z-index: 0;
 }
 
 .black-background {
 	position: absolute;
-	width: 1400px;
-	height: 1254px;
+	width: 100%;
+	height: 100%;
 	background-color: #212121;
 	opacity: 0.95;
 	z-index: -1;
@@ -1135,6 +1147,10 @@ p.contact-us-title {
 	padding-top: 23px;
 }
 
+.contact-us-button {
+	margin-bottom: 7.9%;
+}
+
 button.contact-us-button {
 	width: 220px;
 	height: 70px;
@@ -1149,7 +1165,7 @@ button.contact-us-button {
 	line-height: 22px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	margin-left: 995px;
+	margin-left: 71%;
 	margin-top: 39px;
 	cursor: pointer;
 }
